@@ -12,13 +12,14 @@ msgstr ""
 "Project-Id-Version: Python 3.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 09:24+0330\n"
-"PO-Revision-Date: 2026-10-01 14:41+0330\n"
+"PO-Revision-Date: 2026-10-10 20:55+0330\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
 
 msgid "Migrating to Stable ABI for free threading (``abi3t``)"
 msgstr "مهاجرت به ABI پایدار برای نخ‌بندی آزاد (``abi3t``)"
@@ -350,7 +351,6 @@ msgstr "همانند نمونه، تابع ``PyModExport_`` شما *فقط* با
 msgid "When building for Windows using the Setuptools_ build tool, removing the :samp:`PyInit_{<modname>}` function may result in the linker error :samp:`LINK : error LNK2001: unresolved external symbol PyInit_{<modname>}`. This is caused by Setuptools passing an ``/EXPORT`` linker flag, which is redundant since Python 3.15 (see :gh:`141671`). A workaround is to add a dummy :samp:`PyInit_{<modname>}` function to your code. Python 3.15+ will never call this function if :samp:`PyModExport_{<modname>}` is present, so it can always fail:"
 msgstr "هنگام ساخت برای ویندوز با استفاده از ابزار ساخت Setuptools_، حذف کردن تابع :samp:`PyInit_{<modname>}` ممکن است منجر به خطای پیونددهنده‌ی :samp:`LINK : error LNK2001: unresolved external symbol PyInit_{<modname>}` شود. این مشکل به این دلیل رخ می‌دهد که Setuptools یک پرچم پیونددهنده‌ی ``/EXPORT`` را ارسال می‌کند که از پایتون ۳.۱۵ به بعد اضافی است (نگاه کنید به :gh:`141671`). یک راه حل جایگزین این است که یک تابع :samp:`PyInit_{<modname>}` نمایشی (dummy) به کد خود اضافه کنید. پایتون ۳.۱۵ به بعد هرگز این تابع را در صورت وجود :samp:`PyModExport_{<modname>}` فراخوانی نخواهد کرد، بنابراین همیشه می‌تواند با خطا مواجه شود:"
 
-#, fuzzy
 msgid ""
 "// Workaround for https://github.com/pypa/distutils/issues/387\n"
 "PyMODINIT_FUNC\n"

@@ -80,10 +80,8 @@ msgstr "پارسرِ مبتنی بر :mod:`xml.parsers.expat` این ویژگی 
 msgid "value: ``\"http://xml.org/sax/features/string-interning\"``"
 msgstr "مقدار: ``\"http://xml.org/sax/features/string-interning\"``"
 
-#, fuzzy
-#| msgid "true: All element names, prefixes, attribute names, Namespace URIs, and local names are interned using the built-in intern function."
 msgid "true: All element names, prefixes, attribute names, Namespace URIs, and local names are interned in a dictionary (see :data:`property_interning_dict`)."
-msgstr "مقدار درست (true): تمام نام‌های المان، پیشوندها، نام‌های ویژگی، URIهای فضای نام و نام‌های محلی با استفاده از تابع توکار intern درونی‌سازی می‌شوند."
+msgstr "true: تمام نام‌های عناصر، پیشوندها، نام‌های ویژگی، URIهای فضای نام و نام‌های محلی در یک دیکشنری درونی‌سازی‌شده (interned) می‌شوند (به :data:`property_interning_dict` مراجعه کنید)."
 
 msgid "false: Names are not necessarily interned, although they may be (default)."
 msgstr "false: نام‌ها لزوماً درونی‌سازی‌شده نیستند، اگرچه ممکن است این‌طور باشند (پیش‌فرض)."
